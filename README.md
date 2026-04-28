@@ -43,3 +43,16 @@ Builds a sequence of events to understand attack flow.
 cd soc_simulation
 python logs/generator.py
 python main.py
+
+## 🎯 Outcomes
+- Detects brute force attacks, suspicious logins, and root access events from system logs  
+- Classifies alerts with severity levels and clear reasoning  
+- Enriches alerts with IP-based threat intelligence (internal, external, malicious)  
+- Reconstructs a timeline of events to understand attack flow  
+- Generates structured SOC reports for analysis and documentation  
+
+## 🚀 Future Improvements
+- Integrate real threat intelligence APIs (e.g., VirusTotal)  
+- Add timestamps and real-time log processing  
+- Implement alert prioritization and scoring system  
+- Extend detection rules for additional attack types  

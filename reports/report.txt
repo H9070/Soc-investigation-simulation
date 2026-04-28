@@ -1,0 +1,79 @@
+ALERT: Brute force suspected from 192.168.1.10
+TYPE: Brute Force
+IP: 192.168.1.10
+VERDICT: Malicious
+SEVERITY: High
+REASON: Multiple failed login attempts detected
+--------------------------------------------------
+ALERT: Brute force suspected from 203.0.113.50
+
+TYPE: Brute Force
+IP: 203.0.113.50
+
+VERDICT: Malicious
+SEVERITY: High
+REASON: Multiple failed login attempts detected
+--------------------------------------------------
+ALERT: Brute force suspected from 192.168.1.5
+
+TYPE: Brute Force
+IP: 192.168.1.5
+
+VERDICT: Malicious
+SEVERITY: High
+REASON: Multiple failed login attempts detected
+--------------------------------------------------
+ALERT: Login from external IP 203.0.113.50
+
+TYPE: Suspicious Login
+IP: 203.0.113.50
+
+VERDICT: Suspicious
+SEVERITY: Medium
+REASON: Login from external/untrusted IP
+--------------------------------------------------
+ALERT: Root login detected from 203.0.113.50
+
+TYPE: Root Login
+IP: 203.0.113.50
+
+VERDICT: Critical
+SEVERITY: High
+REASON: Root account access detected
+--------------------------------------------------
+ALERT: Root login detected from 192.168.1.5
+
+TYPE: Root Login
+IP: 192.168.1.5
+
+VERDICT: Critical
+SEVERITY: High
+REASON: Root account access detected
+--------------------------------------------------
+ALERT: Root login detected from 192.168.1.5
+
+TYPE: Root Login
+IP: 192.168.1.5
+
+VERDICT: Critical
+SEVERITY: High
+REASON: Root account access detected
+--------------------------------------------------
+ALERT: Root login detected from 203.0.113.50
+
+TYPE: Root Login
+IP: 203.0.113.50
+
+VERDICT: Critical
+SEVERITY: High
+REASON: Root account access detected
+--------------------------------------------------
+ALERT: Root login detected from 192.168.1.5
+
+TYPE: Root Login
+IP: 192.168.1.5
+
+VERDICT: Critical
+SEVERITY: High
+REASON: Root account access detected
+--------------------------------------------------
